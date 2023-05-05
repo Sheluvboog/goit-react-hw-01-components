@@ -1,25 +1,33 @@
-.item{
-    display: flex;
-    width: 300px;
-    border:1px solid rgb(169, 165, 165);
-    align-items: center;
-    gap: 30px;
-    padding: 20px;
-    box-shadow: 0 5px 7px -1px rgba(51, 51, 51, 0.23);
-    border-radius: 40px;
+.item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin: 20px;
+  width: 350px;
+  border: 1px solid rgb(227, 227, 227);
+  background-color: rgb(253, 253, 253);
+  border-radius: 65px;
+  box-shadow: 0 5px 7px -1px rgba(51, 51, 51, 0.23);
 }
 
-.status{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
+.avatar {
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
 }
 
-.avatar{
-    width: 80px;
+.name {
+  margin-right: 20px;
+  font-size: 30px;
+  font-weight: 700;
 }
 
-.name{
-    font-size: 24px;
-    font-weight: 500;
+.status {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: green;
 }
